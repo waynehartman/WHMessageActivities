@@ -10,14 +10,27 @@
 		B0E3BCB416B8DD7C00C76E24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E3BCB316B8DD7C00C76E24 /* UIKit.framework */; };
 		B0E3BCB616B8DD7C00C76E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E3BCB516B8DD7C00C76E24 /* Foundation.framework */; };
 		B0E3BCB816B8DD7C00C76E24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E3BCB716B8DD7C00C76E24 /* CoreGraphics.framework */; };
-		B0E3BCBE16B8DD7C00C76E24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCBC16B8DD7C00C76E24 /* InfoPlist.strings */; };
-		B0E3BCC016B8DD7C00C76E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCBF16B8DD7C00C76E24 /* main.m */; };
-		B0E3BCC416B8DD7C00C76E24 /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCC316B8DD7C00C76E24 /* WHAppDelegate.m */; };
-		B0E3BCC616B8DD7C00C76E24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCC516B8DD7C00C76E24 /* Default.png */; };
-		B0E3BCC816B8DD7C00C76E24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCC716B8DD7C00C76E24 /* Default@2x.png */; };
-		B0E3BCCA16B8DD7C00C76E24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCC916B8DD7C00C76E24 /* Default-568h@2x.png */; };
-		B0E3BCCD16B8DD7C00C76E24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCCB16B8DD7C00C76E24 /* MainStoryboard.storyboard */; };
-		B0E3BCD016B8DD7C00C76E24 /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCCF16B8DD7C00C76E24 /* WHViewController.m */; };
+		B0E3BCE516B8DDA300C76E24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCD716B8DDA300C76E24 /* Default-568h@2x.png */; };
+		B0E3BCE616B8DDA300C76E24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCD816B8DDA300C76E24 /* Default.png */; };
+		B0E3BCE716B8DDA300C76E24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCD916B8DDA300C76E24 /* Default@2x.png */; };
+		B0E3BCE816B8DDA300C76E24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCDA16B8DDA300C76E24 /* InfoPlist.strings */; };
+		B0E3BCE916B8DDA300C76E24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCDC16B8DDA300C76E24 /* MainStoryboard.storyboard */; };
+		B0E3BCEA16B8DDA300C76E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCDE16B8DDA300C76E24 /* main.m */; };
+		B0E3BCEB16B8DDA300C76E24 /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCE016B8DDA300C76E24 /* WHAppDelegate.m */; };
+		B0E3BCED16B8DDA300C76E24 /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCE416B8DDA300C76E24 /* WHViewController.m */; };
+		B0E3BD0316B8DE1F00C76E24 /* mailActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCF116B8DE1F00C76E24 /* mailActivity.png */; };
+		B0E3BD0416B8DE1F00C76E24 /* mailActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCF216B8DE1F00C76E24 /* mailActivity@2x.png */; };
+		B0E3BD0516B8DE1F00C76E24 /* mailActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCF316B8DE1F00C76E24 /* mailActivity@2x~ipad.png */; };
+		B0E3BD0616B8DE1F00C76E24 /* mailActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCF416B8DE1F00C76E24 /* mailActivity~ipad.png */; };
+		B0E3BD0716B8DE1F00C76E24 /* WHMailActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCF616B8DE1F00C76E24 /* WHMailActivity.m */; };
+		B0E3BD0816B8DE1F00C76E24 /* WHMailActivityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BCF816B8DE1F00C76E24 /* WHMailActivityItem.m */; };
+		B0E3BD0916B8DE1F00C76E24 /* textActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCFB16B8DE1F00C76E24 /* textActivity.png */; };
+		B0E3BD0A16B8DE1F00C76E24 /* textActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCFC16B8DE1F00C76E24 /* textActivity@2x.png */; };
+		B0E3BD0B16B8DE1F00C76E24 /* textActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCFD16B8DE1F00C76E24 /* textActivity@2x~ipad.png */; };
+		B0E3BD0C16B8DE1F00C76E24 /* textActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3BCFE16B8DE1F00C76E24 /* textActivity~ipad.png */; };
+		B0E3BD0D16B8DE1F00C76E24 /* WHTextActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BD0016B8DE1F00C76E24 /* WHTextActivity.m */; };
+		B0E3BD0E16B8DE1F00C76E24 /* WHTextActivityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3BD0216B8DE1F00C76E24 /* WHTextActivityItem.m */; };
+		B0E3BD1016B8E14100C76E24 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E3BD0F16B8E14100C76E24 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,18 +38,35 @@
 		B0E3BCB316B8DD7C00C76E24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0E3BCB516B8DD7C00C76E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0E3BCB716B8DD7C00C76E24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B0E3BCBB16B8DD7C00C76E24 /* WHMessageActivities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WHMessageActivities-Info.plist"; sourceTree = "<group>"; };
-		B0E3BCBD16B8DD7C00C76E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B0E3BCBF16B8DD7C00C76E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0E3BCC116B8DD7C00C76E24 /* WHMessageActivities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WHMessageActivities-Prefix.pch"; sourceTree = "<group>"; };
-		B0E3BCC216B8DD7C00C76E24 /* WHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
-		B0E3BCC316B8DD7C00C76E24 /* WHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
-		B0E3BCC516B8DD7C00C76E24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B0E3BCC716B8DD7C00C76E24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B0E3BCC916B8DD7C00C76E24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B0E3BCCC16B8DD7C00C76E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B0E3BCCE16B8DD7C00C76E24 /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
-		B0E3BCCF16B8DD7C00C76E24 /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
+		B0E3BCD716B8DDA300C76E24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0E3BCD816B8DDA300C76E24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0E3BCD916B8DDA300C76E24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0E3BCDB16B8DDA300C76E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E3BCDD16B8DDA300C76E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0E3BCDE16B8DDA300C76E24 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E3BCDF16B8DDA300C76E24 /* WHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
+		B0E3BCE016B8DDA300C76E24 /* WHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
+		B0E3BCE116B8DDA300C76E24 /* WHMessageActivities-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WHMessageActivities-Info.plist"; sourceTree = "<group>"; };
+		B0E3BCE216B8DDA300C76E24 /* WHMessageActivities-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHMessageActivities-Prefix.pch"; sourceTree = "<group>"; };
+		B0E3BCE316B8DDA300C76E24 /* WHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
+		B0E3BCE416B8DDA300C76E24 /* WHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
+		B0E3BCF116B8DE1F00C76E24 /* mailActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailActivity.png; sourceTree = "<group>"; };
+		B0E3BCF216B8DE1F00C76E24 /* mailActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mailActivity@2x.png"; sourceTree = "<group>"; };
+		B0E3BCF316B8DE1F00C76E24 /* mailActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mailActivity@2x~ipad.png"; sourceTree = "<group>"; };
+		B0E3BCF416B8DE1F00C76E24 /* mailActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mailActivity~ipad.png"; sourceTree = "<group>"; };
+		B0E3BCF516B8DE1F00C76E24 /* WHMailActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMailActivity.h; sourceTree = "<group>"; };
+		B0E3BCF616B8DE1F00C76E24 /* WHMailActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMailActivity.m; sourceTree = "<group>"; };
+		B0E3BCF716B8DE1F00C76E24 /* WHMailActivityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMailActivityItem.h; sourceTree = "<group>"; };
+		B0E3BCF816B8DE1F00C76E24 /* WHMailActivityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMailActivityItem.m; sourceTree = "<group>"; };
+		B0E3BCFB16B8DE1F00C76E24 /* textActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textActivity.png; sourceTree = "<group>"; };
+		B0E3BCFC16B8DE1F00C76E24 /* textActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textActivity@2x.png"; sourceTree = "<group>"; };
+		B0E3BCFD16B8DE1F00C76E24 /* textActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textActivity@2x~ipad.png"; sourceTree = "<group>"; };
+		B0E3BCFE16B8DE1F00C76E24 /* textActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textActivity~ipad.png"; sourceTree = "<group>"; };
+		B0E3BCFF16B8DE1F00C76E24 /* WHTextActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTextActivity.h; sourceTree = "<group>"; };
+		B0E3BD0016B8DE1F00C76E24 /* WHTextActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHTextActivity.m; sourceTree = "<group>"; };
+		B0E3BD0116B8DE1F00C76E24 /* WHTextActivityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTextActivityItem.h; sourceTree = "<group>"; };
+		B0E3BD0216B8DE1F00C76E24 /* WHTextActivityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHTextActivityItem.m; sourceTree = "<group>"; };
+		B0E3BD0F16B8E14100C76E24 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E3BD1016B8E14100C76E24 /* MessageUI.framework in Frameworks */,
 				B0E3BCB416B8DD7C00C76E24 /* UIKit.framework in Frameworks */,
 				B0E3BCB616B8DD7C00C76E24 /* Foundation.framework in Frameworks */,
 				B0E3BCB816B8DD7C00C76E24 /* CoreGraphics.framework in Frameworks */,
@@ -56,7 +87,8 @@
 		B0E3BCA416B8DD7C00C76E24 = {
 			isa = PBXGroup;
 			children = (
-				B0E3BCB916B8DD7C00C76E24 /* WHMessageActivities */,
+				B0E3BCEE16B8DE1F00C76E24 /* WHMessageActivities */,
+				B0E3BCD616B8DDA300C76E24 /* WHMessageActivitiesDemo */,
 				B0E3BCB216B8DD7C00C76E24 /* Frameworks */,
 				B0E3BCB016B8DD7C00C76E24 /* Products */,
 			);
@@ -73,38 +105,86 @@
 		B0E3BCB216B8DD7C00C76E24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3BCB316B8DD7C00C76E24 /* UIKit.framework */,
-				B0E3BCB516B8DD7C00C76E24 /* Foundation.framework */,
 				B0E3BCB716B8DD7C00C76E24 /* CoreGraphics.framework */,
+				B0E3BCB516B8DD7C00C76E24 /* Foundation.framework */,
+				B0E3BD0F16B8E14100C76E24 /* MessageUI.framework */,
+				B0E3BCB316B8DD7C00C76E24 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B0E3BCB916B8DD7C00C76E24 /* WHMessageActivities */ = {
+		B0E3BCD616B8DDA300C76E24 /* WHMessageActivitiesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3BCC216B8DD7C00C76E24 /* WHAppDelegate.h */,
-				B0E3BCC316B8DD7C00C76E24 /* WHAppDelegate.m */,
-				B0E3BCCB16B8DD7C00C76E24 /* MainStoryboard.storyboard */,
-				B0E3BCCE16B8DD7C00C76E24 /* WHViewController.h */,
-				B0E3BCCF16B8DD7C00C76E24 /* WHViewController.m */,
-				B0E3BCBA16B8DD7C00C76E24 /* Supporting Files */,
+				B0E3BCD716B8DDA300C76E24 /* Default-568h@2x.png */,
+				B0E3BCD816B8DDA300C76E24 /* Default.png */,
+				B0E3BCD916B8DDA300C76E24 /* Default@2x.png */,
+				B0E3BCDA16B8DDA300C76E24 /* InfoPlist.strings */,
+				B0E3BCDC16B8DDA300C76E24 /* MainStoryboard.storyboard */,
+				B0E3BCDE16B8DDA300C76E24 /* main.m */,
+				B0E3BCDF16B8DDA300C76E24 /* WHAppDelegate.h */,
+				B0E3BCE016B8DDA300C76E24 /* WHAppDelegate.m */,
+				B0E3BCE116B8DDA300C76E24 /* WHMessageActivities-Info.plist */,
+				B0E3BCE216B8DDA300C76E24 /* WHMessageActivities-Prefix.pch */,
+				B0E3BCE316B8DDA300C76E24 /* WHViewController.h */,
+				B0E3BCE416B8DDA300C76E24 /* WHViewController.m */,
+			);
+			path = WHMessageActivitiesDemo;
+			sourceTree = "<group>";
+		};
+		B0E3BCEE16B8DE1F00C76E24 /* WHMessageActivities */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3BCEF16B8DE1F00C76E24 /* WHMailActivity */,
+				B0E3BCF916B8DE1F00C76E24 /* WHTextActivity */,
 			);
 			path = WHMessageActivities;
 			sourceTree = "<group>";
 		};
-		B0E3BCBA16B8DD7C00C76E24 /* Supporting Files */ = {
+		B0E3BCEF16B8DE1F00C76E24 /* WHMailActivity */ = {
 			isa = PBXGroup;
 			children = (
-				B0E3BCBB16B8DD7C00C76E24 /* WHMessageActivities-Info.plist */,
-				B0E3BCBC16B8DD7C00C76E24 /* InfoPlist.strings */,
-				B0E3BCBF16B8DD7C00C76E24 /* main.m */,
-				B0E3BCC116B8DD7C00C76E24 /* WHMessageActivities-Prefix.pch */,
-				B0E3BCC516B8DD7C00C76E24 /* Default.png */,
-				B0E3BCC716B8DD7C00C76E24 /* Default@2x.png */,
-				B0E3BCC916B8DD7C00C76E24 /* Default-568h@2x.png */,
+				B0E3BCF016B8DE1F00C76E24 /* Images */,
+				B0E3BCF516B8DE1F00C76E24 /* WHMailActivity.h */,
+				B0E3BCF616B8DE1F00C76E24 /* WHMailActivity.m */,
+				B0E3BCF716B8DE1F00C76E24 /* WHMailActivityItem.h */,
+				B0E3BCF816B8DE1F00C76E24 /* WHMailActivityItem.m */,
 			);
-			name = "Supporting Files";
+			path = WHMailActivity;
+			sourceTree = "<group>";
+		};
+		B0E3BCF016B8DE1F00C76E24 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3BCF116B8DE1F00C76E24 /* mailActivity.png */,
+				B0E3BCF216B8DE1F00C76E24 /* mailActivity@2x.png */,
+				B0E3BCF316B8DE1F00C76E24 /* mailActivity@2x~ipad.png */,
+				B0E3BCF416B8DE1F00C76E24 /* mailActivity~ipad.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B0E3BCF916B8DE1F00C76E24 /* WHTextActivity */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3BCFA16B8DE1F00C76E24 /* Images */,
+				B0E3BCFF16B8DE1F00C76E24 /* WHTextActivity.h */,
+				B0E3BD0016B8DE1F00C76E24 /* WHTextActivity.m */,
+				B0E3BD0116B8DE1F00C76E24 /* WHTextActivityItem.h */,
+				B0E3BD0216B8DE1F00C76E24 /* WHTextActivityItem.m */,
+			);
+			path = WHTextActivity;
+			sourceTree = "<group>";
+		};
+		B0E3BCFA16B8DE1F00C76E24 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3BCFB16B8DE1F00C76E24 /* textActivity.png */,
+				B0E3BCFC16B8DE1F00C76E24 /* textActivity@2x.png */,
+				B0E3BCFD16B8DE1F00C76E24 /* textActivity@2x~ipad.png */,
+				B0E3BCFE16B8DE1F00C76E24 /* textActivity~ipad.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +239,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E3BCBE16B8DD7C00C76E24 /* InfoPlist.strings in Resources */,
-				B0E3BCC616B8DD7C00C76E24 /* Default.png in Resources */,
-				B0E3BCC816B8DD7C00C76E24 /* Default@2x.png in Resources */,
-				B0E3BCCA16B8DD7C00C76E24 /* Default-568h@2x.png in Resources */,
-				B0E3BCCD16B8DD7C00C76E24 /* MainStoryboard.storyboard in Resources */,
+				B0E3BCE516B8DDA300C76E24 /* Default-568h@2x.png in Resources */,
+				B0E3BCE616B8DDA300C76E24 /* Default.png in Resources */,
+				B0E3BCE716B8DDA300C76E24 /* Default@2x.png in Resources */,
+				B0E3BCE816B8DDA300C76E24 /* InfoPlist.strings in Resources */,
+				B0E3BCE916B8DDA300C76E24 /* MainStoryboard.storyboard in Resources */,
+				B0E3BD0316B8DE1F00C76E24 /* mailActivity.png in Resources */,
+				B0E3BD0416B8DE1F00C76E24 /* mailActivity@2x.png in Resources */,
+				B0E3BD0516B8DE1F00C76E24 /* mailActivity@2x~ipad.png in Resources */,
+				B0E3BD0616B8DE1F00C76E24 /* mailActivity~ipad.png in Resources */,
+				B0E3BD0916B8DE1F00C76E24 /* textActivity.png in Resources */,
+				B0E3BD0A16B8DE1F00C76E24 /* textActivity@2x.png in Resources */,
+				B0E3BD0B16B8DE1F00C76E24 /* textActivity@2x~ipad.png in Resources */,
+				B0E3BD0C16B8DE1F00C76E24 /* textActivity~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,27 +262,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E3BCC016B8DD7C00C76E24 /* main.m in Sources */,
-				B0E3BCC416B8DD7C00C76E24 /* WHAppDelegate.m in Sources */,
-				B0E3BCD016B8DD7C00C76E24 /* WHViewController.m in Sources */,
+				B0E3BCEA16B8DDA300C76E24 /* main.m in Sources */,
+				B0E3BCEB16B8DDA300C76E24 /* WHAppDelegate.m in Sources */,
+				B0E3BCED16B8DDA300C76E24 /* WHViewController.m in Sources */,
+				B0E3BD0716B8DE1F00C76E24 /* WHMailActivity.m in Sources */,
+				B0E3BD0816B8DE1F00C76E24 /* WHMailActivityItem.m in Sources */,
+				B0E3BD0D16B8DE1F00C76E24 /* WHTextActivity.m in Sources */,
+				B0E3BD0E16B8DE1F00C76E24 /* WHTextActivityItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B0E3BCBC16B8DD7C00C76E24 /* InfoPlist.strings */ = {
+		B0E3BCDA16B8DDA300C76E24 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0E3BCBD16B8DD7C00C76E24 /* en */,
+				B0E3BCDB16B8DDA300C76E24 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B0E3BCCB16B8DD7C00C76E24 /* MainStoryboard.storyboard */ = {
+		B0E3BCDC16B8DDA300C76E24 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0E3BCCC16B8DD7C00C76E24 /* en */,
+				B0E3BCDD16B8DDA300C76E24 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -256,8 +348,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WHMessageActivities/WHMessageActivities-Prefix.pch";
-				INFOPLIST_FILE = "WHMessageActivities/WHMessageActivities-Info.plist";
+				GCC_PREFIX_HEADER = "WHMessageActivitiesDemo/WHMessageActivities-Prefix.pch";
+				INFOPLIST_FILE = "WHMessageActivitiesDemo/WHMessageActivities-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,8 +359,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WHMessageActivities/WHMessageActivities-Prefix.pch";
-				INFOPLIST_FILE = "WHMessageActivities/WHMessageActivities-Info.plist";
+				GCC_PREFIX_HEADER = "WHMessageActivitiesDemo/WHMessageActivities-Prefix.pch";
+				INFOPLIST_FILE = "WHMessageActivitiesDemo/WHMessageActivities-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
