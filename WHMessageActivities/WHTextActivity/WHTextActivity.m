@@ -74,21 +74,20 @@
 }
 
 - (UIViewController *)activityViewController {
+    MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
+
     if (self.textActivityItem.onTextActivitySelected) {
-        MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
         self.textActivityItem.onTextActivitySelected(messageController);
         messageController.messageComposeDelegate = self;
-
-        return messageController;
-    } else {
-        return nil;
     }
+
+    return messageController;
 }
 
 #pragma mark - MFMessageComposeViewControllerDelegate
 
 - (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result {
-    [self activityDidFinish:YES];
+    [self activityDidFinish:result == MessageComposeResultSent];
 }
 
 

@@ -75,19 +75,18 @@
 }
 
 - (UIViewController *)activityViewController {
+    MFMailComposeViewController *composeController = [[MFMailComposeViewController alloc] init];
+
     if (self.activityItem.onMailActivitySelected) {
-        MFMailComposeViewController *composeController = [[MFMailComposeViewController alloc] init];
         self.activityItem.onMailActivitySelected(composeController);
         composeController.mailComposeDelegate = self;
-
-        return composeController;
-    } else {
-        return nil;
     }
+
+    return composeController;
 }
 
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
-    [self activityDidFinish:YES];
+    [self activityDidFinish:result == MFMailComposeResultSent];
 }
 
 @end
