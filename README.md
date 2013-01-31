@@ -7,7 +7,7 @@ __Why__: `UIActivity` is an awesome API for sharing content with built-in iOS se
 
 __How__: Add `MessageUI.framework` to your project, then instantiate a `WHMailActivityItem` with a selection handler, using it to populate the contents of a `MFMailComposeViewController` or `MFMessageComposeViewController`:
 
-    [NSMutableArray *activityItems = [NSMutableArray array];
+    NSMutableArray *activityItems = [NSMutableArray array];
 
 
     // For Mail Messages

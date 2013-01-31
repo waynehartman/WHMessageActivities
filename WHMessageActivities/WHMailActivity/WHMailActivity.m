@@ -85,6 +85,8 @@
     return composeController;
 }
 
+#pragma mark - MFMailComposeViewControllerDelegate
+
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
     [self activityDidFinish:result == MFMailComposeResultSent];
 }
