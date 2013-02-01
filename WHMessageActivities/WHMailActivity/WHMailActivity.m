@@ -79,9 +79,9 @@
 
     if (self.activityItem.onMailActivitySelected) {
         self.activityItem.onMailActivitySelected(composeController);
-        composeController.mailComposeDelegate = self;
     }
 
+    composeController.mailComposeDelegate = self;
     return composeController;
 }
 
