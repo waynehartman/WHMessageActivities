@@ -78,9 +78,9 @@
 
     if (self.textActivityItem.onTextActivitySelected) {
         self.textActivityItem.onTextActivitySelected(messageController);
-        messageController.messageComposeDelegate = self;
     }
 
+    messageController.messageComposeDelegate = self;
     return messageController;
 }
 
