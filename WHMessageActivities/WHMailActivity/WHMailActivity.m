@@ -35,6 +35,9 @@
 
 @end
 
+@interface WHMailActivity ()
+@property (weak) MFMailComposeViewController *mailController;
+@end
 
 @implementation WHMailActivity
 
@@ -82,7 +85,13 @@
     }
 
     composeController.mailComposeDelegate = self;
+	self.mailController = composeController;
     return composeController;
+}
+
+-(void)activityDidFinish:(BOOL)completed
+{
+	[self.mailController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - MFMailComposeViewControllerDelegate
