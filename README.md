@@ -35,7 +35,7 @@ __How__: Add `MessageUI.framework` to your project, then instantiate a `WHMailAc
     // turn off Apple's activities                                                                                     
     activityController.excludedActivityTypes = (@[
                                                     UIActivityTypeMail,
-                                                    UIActivityTypeMessage,
+                                                    UIActivityTypeMessage
                                                 ]);
     // let 'er rip!
     [self presentViewController:activityController animated:YES completion:NULL];
